@@ -1,3 +1,6 @@
+// Idea easy-medium, code quite is a bit complex. Once you think 
+// about applying sqrt decomposition, rest is standard use case of trie/xor 
+// which is common problem.
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
