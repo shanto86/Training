@@ -1,3 +1,4 @@
+// Idea normal, code is a bit complex. Main idea is to use segment tree to fast process the topological sort algo.
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
