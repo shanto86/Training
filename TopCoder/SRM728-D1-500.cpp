@@ -1,3 +1,14 @@
+/*
+Tutorial: http://codeforces.com/blog/entry/57324
+My Solution is a little bit different. I used regular dp. The idea is,
+first partition the 1..10^9 range into segments such that each segment is 
+totally in or totally out of all (li, ri). So there are at most 600 segments.
+Now for each segment, we calculate the count as f(i). If you think, you will
+notice, f(i) is a polynomial. Now representing polynomial in efficient way
+might be tricky, because you need to perform sum[i = 1 to n] f(i).
+The trick is, it will be easy to perform summation if you represent f(i)
+as sum of falling factorial.
+*/
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
