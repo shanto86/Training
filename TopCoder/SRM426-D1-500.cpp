@@ -1,3 +1,5 @@
+/*The main idea is to notice the function of the size of the square
+is a convex function, thus its a ternary search.*/
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
