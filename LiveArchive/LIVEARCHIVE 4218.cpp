@@ -1,3 +1,8 @@
+/*The idea is to consider the cities as edges and colors as vertices,
+then the problem is nothing but saying whether there is an euler path
+or not, if there is, then find the smallest starting edge.
+It's not that difficult, just one needs to keep in mind the tricky case
+of "bridge".*/
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
