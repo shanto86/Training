@@ -1,3 +1,4 @@
+// Editorial: http://apio-olympiad.org/2010/solutions.pdf
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
