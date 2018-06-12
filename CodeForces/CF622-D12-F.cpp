@@ -1,3 +1,4 @@
+// Same as editorial: http://codeforces.com/blog/entry/23442
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
