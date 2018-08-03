@@ -1,3 +1,6 @@
+// Main idea is winding number. Once you figure out
+// how to say, whether the circle can pass through two given
+// circles, the rest will be a bfs/dfs with winding number.
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
