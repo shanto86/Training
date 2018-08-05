@@ -1,3 +1,9 @@
+// First find the probability of a cell being inside K-parallelopid, sum those up.
+// To find such probability, find the probability, of a cell being inside parallelopid
+// only once. Then applying binaomial theorem, we can compute, what;s the probability
+// of that cell being inside K-parallelopids odd times.
+// To find the probability of (i, j, k) in one single parallelopid, multiply
+// the probability that i being inside [x1, x2], which is simple math.
 #pragma warning(disable:4786)
 #pragma warning(disable:4996)
 #include<list>
