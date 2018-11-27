@@ -1,3 +1,7 @@
+/*
+The obvious approach is to do sqrt method. Loop from i = 1 to sqrt(k) and,
+solve for the answer being 1 to sqrt(k)-1.
+*/
 //#pragma GCC optimize("Ofast")
 //#pragma GCC optimize ("unroll-loops")
 //#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
