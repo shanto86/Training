@@ -1,3 +1,9 @@
+/*
+From n00 and n11, we can find number of 0s and 1s. Then we can find whether
+n01 and n10 are consistent. If they are, find some greedy placement of the 0s and 1s.
+And we can do so by some jump. For example, one possible solution is:
+(place some 0)(place some 1)(place only one 0)(place remaining 1)(place remaining 0).
+*/
 //#pragma GCC optimize("Ofast")
 //#pragma GCC optimize ("unroll-loops")
 //#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
